@@ -35,7 +35,33 @@ public class User {
 				+ "]";
 	}
 
-	
-
-
+public static class UserBuilder{
+	String FirstName;
+	String LastName;
+	int age;
+	String Address;
+	public UserBuilder(String FirstName,String LastName)
+	{
+		this.FirstName=FirstName;
+		this.LastName=LastName;
+	}
+	public UserBuilder age(int age){
+		this.age=age;
+		return this;
+	}
+	public UserBuilder Address(String Address){
+		this.Address=Address;
+		return this;
+	}
+	public User build(){
+		User user=new User(this);
+		//validate oblject
+		validatUserObject();
+		return user;
+	}
+	//UserBuilder(int); 
+	public void  validatUserObject(){
+	//	if()
+	}
+}	
 }
