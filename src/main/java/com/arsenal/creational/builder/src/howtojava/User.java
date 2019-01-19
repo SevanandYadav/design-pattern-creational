@@ -1,4 +1,4 @@
-package com.arsenal.creational.builder;
+package com.arsenal.creational.builder.src.howtojava;
 
 //Using HowToJava-Practical scnario explained
 public class User {

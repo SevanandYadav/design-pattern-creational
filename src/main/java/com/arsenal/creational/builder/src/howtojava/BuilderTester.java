@@ -1,4 +1,6 @@
-package com.arsenal.creational.builder;
+package com.arsenal.creational.builder.src.howtojava;
+
+import com.arsenal.creational.builder.src.howtojava.User.UserBuilder;
 
 public class BuilderTester {
 
